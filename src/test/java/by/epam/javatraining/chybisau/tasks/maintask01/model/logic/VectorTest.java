@@ -1,8 +1,8 @@
-package by.epam.javatraining.chybisau.model;
-import org.junit.Assert;
+package by.epam.javatraining.chybisau.tasks.maintask01.model.logic;
+
 import org.junit.Test;
 
-import java.util.Arrays;
+import static org.junit.Assert.*;
 
 public class VectorTest {
 
@@ -10,70 +10,54 @@ public class VectorTest {
     public void findMinValue() {
         double[] vector = {2, 10, 5, 8, 1};
         double expected = 1;
-        if (expected != Vector.findMinValue(vector)) {
-            Assert.fail();
-        }
+        assertEquals(expected, Vector.findMinValue(vector), 0.0001);
     }
 
     @Test
     public void findMaxValue() {
         double[] vector = {2, 10, 5, 8, 1};
         double expected = 10;
-        if (expected != Vector.findMaxValue(vector)) {
-            Assert.fail();
-        }
+        assertEquals(expected, Vector.findMaxValue(vector), 0.0001);
     }
 
     @Test
     public void countArithmeticalMean() {
         double[] vector = {2, 10, 5, 7};
         double expected = 6;
-        if (expected != Vector.countArithmeticalMean(vector)) {
-            Assert.fail();
-        }
+        assertEquals(expected, Vector.countArithmeticalMean(vector), 0.0001);
     }
 
     @Test
     public void countGeometricalMean() {
         double[] vector = {2, 10};
         double expected = Math.pow(2 * 10, 0.5);
-        if (expected != Vector.countGeometricalMean(vector)) {
-            Assert.fail();
-        }
+        assertEquals(expected, Vector.countGeometricalMean(vector), 0.0001);
     }
 
     @Test
     public void checkAscendingOrder() {
         double[] vector = {2, 5, 10};
-        if (!Vector.checkAscendingOrder(vector)) {
-            Assert.fail();
-        }
+        assertTrue(Vector.checkAscendingOrder(vector));
     }
 
     @Test
     public void checkDescendingOrder() {
         double[] vector = {10, 6, 3, 1};
-        if (!Vector.checkDescendingOrder(vector)) {
-            Assert.fail();
-        }
+        assertTrue(Vector.checkDescendingOrder(vector));
     }
 
     @Test
     public void findTheFirstLocalMinimumPosition() {
         double[] vector = {10, 6, 3, 1};
         double expected = -1;
-        if (expected != Vector.findTheFirstLocalMinimumPosition(vector)) {
-            Assert.fail();
-        }
+        assertEquals(expected, Vector.findTheFirstLocalMinimumPosition(vector), 0.0001);
     }
 
     @Test
     public void findTheFirstLocalMaximumPosition() {
         double[] vector = {10, 6, 3, 1};
         double expected = 0;
-        if (expected != Vector.findTheFirstLocalMaximumPosition(vector)) {
-            Assert.fail();
-        }
+        assertEquals(expected, Vector.findTheFirstLocalMaximumPosition(vector), 0.0001);
     }
 
     @Test
@@ -81,9 +65,7 @@ public class VectorTest {
         double[] vector = {10, 6, 3, 1, 18, 5, 9, 4};
         double number = 1;
         int expected = 3;
-        if (expected != Vector.linearSearch(number, vector)) {
-            Assert.fail();
-        }
+        assertEquals(expected, Vector.linearSearch(number, vector));
     }
 
     @Test
@@ -91,9 +73,7 @@ public class VectorTest {
         double[] vector = {1, 3, 5, 7, 9};
         double number = 5;
         int expected = 2;
-        if (expected != Vector.binarySearch(number, vector)) {
-            Assert.fail();
-        }
+        assertEquals(expected, Vector.binarySearch(number, vector));
     }
 
     @Test
@@ -101,36 +81,27 @@ public class VectorTest {
         double[] vector = {9, 8, 7, 6, 5};
         double number = 5;
         int expected = 4;
-        if (expected != Vector.binarySearch(number, vector)) {
-            Assert.fail();
-        }
+        assertEquals(expected, Vector.binarySearch(number, vector));
     }
 
     @Test
     public void reverseVector() {
         double[] vector = {9, 8, 5, 33};
         double[] expected = {33, 5, 8, 9};
-        if (!Arrays.equals(expected, Vector.reverseVector(vector))) {
-            Assert.fail();
-        }
+        assertArrayEquals(expected, Vector.reverseVector(vector), 0.0001);
     }
 
     @Test
     public void bubbleSortOfVector() {
         double[] vector = {9.0, 8.0, 5.0, 33.0, 21.0};
         double[] expected = {5.0, 8.0, 9.0, 21.0, 33.0};
-        if (!Arrays.equals(expected, Vector.bubbleSortOfVector(vector))) {
-            Assert.fail();
-        }
+        assertArrayEquals(expected, Vector.bubbleSortOfVector(vector), 0.0001);
     }
 
     @Test
     public void mergeSortOfVector() {
         double[] vector = {9, 8, 5, 33, 21};
         double[] expected = {5, 8, 9, 21, 33};
-        if (!Arrays.equals(expected, Vector.bubbleSortOfVector(vector))) {
-            Assert.fail();
-        }
+        assertArrayEquals(expected, Vector.bubbleSortOfVector(vector), 0.0001);
     }
-
 }

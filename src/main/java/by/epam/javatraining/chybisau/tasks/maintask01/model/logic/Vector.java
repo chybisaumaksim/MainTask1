@@ -1,30 +1,15 @@
-package by.epam.javatraining.chybisau.model;
+package by.epam.javatraining.chybisau.tasks.maintask01.model.logic;
 
 import java.util.Arrays;
-import java.util.Random;
 
 /**
  * Created by Maksim Chybisau on 09/03/19.
+ * Changed by Maksim Chybisau on 17/03/19.
+ *
+ * @version 0.0.2
  */
+
 public class Vector {
-    private static double[] vector;
-
-    public Vector(int numberOfElements, int bound) {
-        vector = initializeVector(numberOfElements, bound);
-    }
-
-    public static double[] initializeVector(int numberOfElements, int bound) {
-        Random random = new Random();
-        vector = new double[ random.nextInt(numberOfElements) + 1 ];
-        for (int i = 0; i < vector.length; i++) {
-            vector[ i ] = random.nextInt(bound) + 1;
-        }
-        return vector;
-    }
-
-    public static double[] returnVector() {
-        return vector;
-    }
 
     public static double findMinValue(double[] vector) {
         double min = vector[ 0 ];
@@ -170,10 +155,10 @@ public class Vector {
         }
 //        else {
 //            if(checkAscendingOrder(vector)) {
-//                double[] sortedVector = Arrays.copyOf(vector, vector.length);
+//                double[] sortedVector = Arrays.copyOf(vector, vector.matrixLength);
 //            Arrays.sort(sortedVector);
 //                int low = 0;
-//                int high = sortedVector.length;
+//                int high = sortedVector.matrixLength;
 //                int mid;
 //                while (low < high) {
 //                    mid = (low + high) / 2;
@@ -256,4 +241,3 @@ public class Vector {
         }
     }
 }
-

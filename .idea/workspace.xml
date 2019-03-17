@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa421a17-262f-4946-be9f-772ce822b6c2" name="Default" comment="" />
+    <list default="true" id="aa421a17-262f-4946-be9f-772ce822b6c2" name="Default" comment="Second commit/ &#10;Changes:&#10;new class Matrix + matrix tests&#10;corrections of all tests&#10;toString() in all entities&#10;change of class View&#10;directories according to the tasks&#10;Block comments&#10;and a lot of minor fixes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/MatrixCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/VectorCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/MatrixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/controller/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/model/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/Vector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/model/VectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/VectorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MainTask1-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MainTask1-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/javatraining/chybisau/controller/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/javatraining/chybisau/model/Vector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/javatraining/chybisau/view/View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/epam/javatraining/chybisau/model/VectorTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +41,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VectorTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/model/VectorTest.java">
+      <file leaf-file-name="Matrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/MainTask01-testing(1)/MainTask01-testing/src/by/epam/javatraining/igoryasko/firstmaintask/model/logic/data/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="135" selection-start-line="135" selection-end-line="142" selection-end-column="5" />
+            <state relative-caret-position="-18">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatrixCreator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/MatrixCreator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Matrix#0;class#Matrix#0" />
+                <element signature="method#initializeMatrix#0;class#Matrix#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatrixLogic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/MainTask01-testing(1)/MainTask01-testing/src/by/epam/javatraining/igoryasko/firstmaintask/model/logic/matrixlogic/MatrixLogic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="70" column="17" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="70" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/controller/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,43 +85,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrameworkMethod.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/view/View.java">
+      <file leaf-file-name="View.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/view/View.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
               <folding>
-                <element signature="method#printVector#0;class#View#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/controller/Main.java">
+      <file leaf-file-name="VectorCreator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/VectorCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="158">
+              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+              <folding>
+                <element signature="method#initializeVector#0;class#Vector#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Vector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/model/Vector.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/Vector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+            <state>
+              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
               <folding>
-                <element signature="method#initializeVector#0;class#Vector#0" />
                 <element signature="method#findMinValue#0;class#Vector#0" />
                 <element signature="method#findMaxValue#0;class#Vector#0" />
                 <element signature="method#countArithmeticalMean#0;class#Vector#0" />
@@ -85,15 +135,53 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Matrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/Matrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="94" selection-start-line="94" selection-end-line="94" />
+              <folding>
+                <element signature="method#findMinValue#0;class#Matrix#0" />
+                <element signature="method#findMaxValue#0;class#Matrix#0" />
+                <element signature="method#findTheFirstLocalMinimumPosition#0;class#Matrix#0" />
+                <element signature="method#findTheFirstLocalMaximumPosition#0;class#Matrix#0" />
+                <element signature="method#isSymmetrical#0;class#Matrix#0" />
+                <element signature="method#transposeMatrix#0;class#Matrix#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatrixTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/MatrixTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1100">
+              <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VectorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/VectorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -102,10 +190,27 @@
         <option value="$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/model/VectorTestTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/view/View.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/model/Matrix.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/controller/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/model/Vector.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/model/VectorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/Vector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/a.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/VectorInitialization.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/tasks/maintask01/model/VectorTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/MatrixTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/VectorLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/Vector.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/tasks/maintask01/model/VectorCreatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/VectorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/MatrixTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/Vector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/MatrixCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/VectorCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/controller/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/view/View.java" />
       </list>
     </option>
   </component>
@@ -121,6 +226,11 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="MainTask1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MainTask1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -130,13 +240,16 @@
     <option name="width" value="1612" />
     <option name="height" value="860" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,7 +281,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chybisau" type="462c0819:PsiDirectoryNode" />
+              <item name="maintask01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MainTask01" type="b2602c69:ProjectViewProjectNode" />
@@ -176,7 +289,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chybisau" type="462c0819:PsiDirectoryNode" />
+              <item name="maintask01" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -185,7 +298,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chybisau" type="462c0819:PsiDirectoryNode" />
+              <item name="maintask01" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -194,7 +307,27 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chybisau" type="462c0819:PsiDirectoryNode" />
+              <item name="maintask01" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainTask01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainTask01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maintask01" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MainTask01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MainTask01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maintask01" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -210,26 +343,18 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MainTask01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MainTask01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/MainTask01-training/MainTask01-training" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -237,10 +362,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="by.epam.javatraining.chybisau.tasks.maintask01.model.logic" />
+      <recent name="by.epam.javatraining.chybisau.tasks.maintask01.model.data" />
       <recent name="by.epam.javatraining.chybisau.model" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="by.epam.javatraining.chybisau.tasks.maintask01.model.logic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -255,14 +385,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VectorTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.chybisau.controller.Main" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.chybisau.tasks.maintask01.controller.Main" />
       <module name="MainTask01" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.epam.javatraining.chybisau.controller.*" />
+          <option name="PATTERN" value="by.epam.javatraining.chybisau.tasks.maintask01.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,18 +400,18 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="VectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MatrixCreatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MainTask01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.epam.javatraining.chybisau.model.*" />
+          <option name="PATTERN" value="by.epam.javatraining.chybisau.tasks.maintask01.model.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="by.epam.javatraining.chybisau.model" />
-      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.chybisau.model.VectorTest" />
+      <option name="PACKAGE_NAME" value="by.epam.javatraining.chybisau.tasks.maintask01.model.data" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.chybisau.tasks.maintask01.model.data.MatrixCreatorTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -293,19 +423,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="VectorTest.bubbleSortOfVector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MatrixCreatorTest.transposeMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MainTask01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.epam.javatraining.chybisau.model.*" />
+          <option name="PATTERN" value="by.epam.javatraining.chybisau.tasks.maintask01.controller.model.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="by.epam.javatraining.chybisau.model" />
-      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.chybisau.model.VectorTest" />
-      <option name="METHOD_NAME" value="bubbleSortOfVector" />
+      <option name="PACKAGE_NAME" value="by.epam.javatraining.chybisau.tasks.maintask01.model.data" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.chybisau.tasks.maintask01.model.data.MatrixCreatorTest" />
+      <option name="METHOD_NAME" value="transposeMatrix" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -316,19 +446,65 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="VectorTest.mergeSortOfVector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MainTask01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.epam.javatraining.chybisau.model.*" />
+          <option name="PATTERN" value="by.epam.javatraining.chybisau.tasks.maintask01.controller.model.logic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="by.epam.javatraining.chybisau.model" />
-      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.chybisau.model.VectorTest" />
-      <option name="METHOD_NAME" value="mergeSortOfVector" />
+      <option name="PACKAGE_NAME" value="by.epam.javatraining.chybisau.tasks.maintask01.controller.model.logic" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.chybisau.tasks.maintask01.controller.model.logic.MatrixTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="VectorCreatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MainTask01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.javatraining.chybisau.tasks.maintask01.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="by.epam.javatraining.chybisau.tasks.maintask01.model" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.chybisau.tasks.maintask01.model.VectorCreatorTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="VectorCreatorTest.checkAscendingOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MainTask01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.javatraining.chybisau.tasks.maintask01.controller.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="by.epam.javatraining.chybisau.tasks.maintask01.model" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.chybisau.tasks.maintask01.model.VectorCreatorTest" />
+      <option name="METHOD_NAME" value="checkAscendingOrder" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -339,20 +515,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="VectorTest.returnVector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MainTask01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.epam.javatraining.chybisau.model.*" />
+          <option name="PATTERN" value="by.epam.javatraining.chybisau.tasks.maintask01.controller.model.logic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="by.epam.javatraining.chybisau.model" />
-      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.chybisau.model.VectorTest" />
-      <option name="METHOD_NAME" value="returnVector" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="by.epam.javatraining.chybisau.tasks.maintask01.controller.model.logic" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.javatraining.chybisau.tasks.maintask01.controller.model.logic.VectorTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -401,19 +577,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.VectorTest.bubbleSortOfVector" />
-      <item itemvalue="JUnit.VectorTest.mergeSortOfVector" />
+      <item itemvalue="JUnit.MatrixTest" />
+      <item itemvalue="JUnit.VectorCreatorTest.checkAscendingOrder" />
       <item itemvalue="JUnit.VectorTest" />
-      <item itemvalue="JUnit.VectorTest.returnVector" />
+      <item itemvalue="JUnit.MatrixCreatorTest.transposeMatrix" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VectorTest" />
-        <item itemvalue="JUnit.VectorTest.returnVector" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.VectorTest.mergeSortOfVector" />
-        <item itemvalue="JUnit.VectorTest.bubbleSortOfVector" />
+        <item itemvalue="JUnit.VectorTest" />
+        <item itemvalue="JUnit.MatrixTest" />
+        <item itemvalue="JUnit.MatrixCreatorTest" />
+        <item itemvalue="JUnit.MatrixCreatorTest.transposeMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -431,40 +607,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VectorTest_bubbleSortOfVector - 2019.03.11 at 15h 49m 35s.xml">
-      <configuration name="VectorTest.bubbleSortOfVector" configurationId="JUnit" />
+    <history-entry file="MatrixTest - 2019.03.17 at 18h 36m 57s.xml">
+      <configuration name="MatrixTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VectorTest_bubbleSortOfVector - 2019.03.11 at 15h 52m 40s.xml">
-      <configuration name="VectorTest.bubbleSortOfVector" configurationId="JUnit" />
+    <history-entry file="MatrixTest - 2019.03.17 at 18h 37m 18s.xml">
+      <configuration name="MatrixTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VectorTest_bubbleSortOfVector - 2019.03.11 at 15h 52m 50s.xml">
-      <configuration name="VectorTest.bubbleSortOfVector" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VectorTest_mergeSortOfVector - 2019.03.11 at 15h 52m 53s.xml">
-      <configuration name="VectorTest.mergeSortOfVector" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VectorTest - 2019.03.11 at 15h 52m 57s.xml">
+    <history-entry file="VectorTest - 2019.03.17 at 19h 41m 13s.xml">
       <configuration name="VectorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VectorTest - 2019.03.11 at 15h 53m 28s.xml">
+    <history-entry file="VectorTest - 2019.03.17 at 19h 41m 20s.xml">
       <configuration name="VectorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VectorTest - 2019.03.11 at 15h 53m 48s.xml">
+    <history-entry file="VectorTest - 2019.03.17 at 19h 41m 21s.xml">
       <configuration name="VectorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VectorTest_returnVector - 2019.03.11 at 15h 53m 50s.xml">
-      <configuration name="VectorTest.returnVector" configurationId="JUnit" />
+    <history-entry file="MatrixTest - 2019.03.17 at 19h 45m 32s.xml">
+      <configuration name="MatrixTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VectorTest_returnVector - 2019.03.11 at 15h 55m 36s.xml">
-      <configuration name="VectorTest.returnVector" configurationId="JUnit" />
+    <history-entry file="VectorTest - 2019.03.17 at 19h 45m 48s.xml">
+      <configuration name="VectorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VectorTest_returnVector - 2019.03.11 at 15h 55m 46s.xml">
-      <configuration name="VectorTest.returnVector" configurationId="JUnit" />
+    <history-entry file="MatrixTest - 2019.03.17 at 19h 45m 54s.xml">
+      <configuration name="MatrixTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VectorTest - 2019.03.17 at 19h 45m 57s.xml">
+      <configuration name="VectorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VectorTest - 2019.03.17 at 19h 47m 46s.xml">
+      <configuration name="VectorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -473,15 +648,14 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.03084833" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27198917" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.15167095" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4343708" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49908257" visible="true" weight="0.2377892" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.32882273" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49908257" visible="true" weight="0.2840617" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32882273" />
       <window_info id="Structure" order="1" sideWeight="0.50091743" side_tool="true" weight="0.2718509" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -490,6 +664,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991881" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.32882273" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -498,136 +673,22 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Secon commit/ &#10;Changes&#10;new Matrix + matrix tests&#10;corrections of all tests&#10;toString() in all entities&#10;change of Viev&#10;directories according to the tasks&#10;Block comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Secon commit/ &#10;Changes&#10;new Matrix + matrix tests&#10;corrections of all tests&#10;toString() in all entities&#10;change of Viev&#10;directories according to the tasks&#10;Block comments" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/model/Vector.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="72" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/model/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/model/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="method#initializeVector#0;class#Vector#0" />
-            <element signature="method#findMinValue#0;class#Vector#0" />
-            <element signature="method#findMaxValue#0;class#Vector#0" />
-            <element signature="method#countArithmeticalMean#0;class#Vector#0" />
-            <element signature="method#countGeometricalMean#0;class#Vector#0" />
-            <element signature="method#checkAscendingOrder#0;class#Vector#0" />
-            <element signature="method#checkDescendingOrder#0;class#Vector#0" />
-            <element signature="method#findTheFirstLocalMinimumPosition#0;class#Vector#0" />
-            <element signature="method#findTheFirstLocalMaximumPosition#0;class#Vector#0" />
-            <element signature="method#linearSearch#0;class#Vector#0" />
-            <element signature="method#binarySearch#0;class#Vector#0" />
-            <element signature="method#reverseVector#0;class#Vector#0" />
-            <element signature="method#bubbleSortOfVector#0;class#Vector#0" />
-            <element signature="method#mergeSortOfVector#0;class#Vector#0" />
-            <element signature="method#mergeSortOfVector#1;class#Vector#0" />
-            <element signature="method#merge#0;class#Vector#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/controller/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/model/VectorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/controller/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/model/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="method#initializeVector#0;class#Vector#0" />
-            <element signature="method#findMinValue#0;class#Vector#0" />
-            <element signature="method#findMaxValue#0;class#Vector#0" />
-            <element signature="method#countArithmeticalMean#0;class#Vector#0" />
-            <element signature="method#countGeometricalMean#0;class#Vector#0" />
-            <element signature="method#checkAscendingOrder#0;class#Vector#0" />
-            <element signature="method#checkDescendingOrder#0;class#Vector#0" />
-            <element signature="method#findTheFirstLocalMinimumPosition#0;class#Vector#0" />
-            <element signature="method#findTheFirstLocalMaximumPosition#0;class#Vector#0" />
-            <element signature="method#linearSearch#0;class#Vector#0" />
-            <element signature="method#binarySearch#0;class#Vector#0" />
-            <element signature="method#reverseVector#0;class#Vector#0" />
-            <element signature="method#bubbleSortOfVector#0;class#Vector#0" />
-            <element signature="method#mergeSortOfVector#0;class#Vector#0" />
-            <element signature="method#mergeSortOfVector#1;class#Vector#0" />
-            <element signature="method#merge#0;class#Vector#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
-          <folding>
-            <element signature="method#printVector#0;class#View#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/model/VectorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/model/Vector.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/model/VectorTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/view/View.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/controller/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/VectorTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/model/VectorTestTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/view/View.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/view/View.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/model/VectorTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/controller/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/model/Vector.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/tasks/maintask01/model/VectorCreatorTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/controller/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/VectorCreator.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -635,46 +696,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/controller/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/controller/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/model/Vector.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/VectorCreator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="method#initializeVector#0;class#Vector#0" />
-            <element signature="method#findMinValue#0;class#Vector#0" />
-            <element signature="method#findMaxValue#0;class#Vector#0" />
-            <element signature="method#countArithmeticalMean#0;class#Vector#0" />
-            <element signature="method#countGeometricalMean#0;class#Vector#0" />
-            <element signature="method#checkAscendingOrder#0;class#Vector#0" />
-            <element signature="method#checkDescendingOrder#0;class#Vector#0" />
-            <element signature="method#findTheFirstLocalMinimumPosition#0;class#Vector#0" />
-            <element signature="method#findTheFirstLocalMaximumPosition#0;class#Vector#0" />
-            <element signature="method#linearSearch#0;class#Vector#0" />
-            <element signature="method#binarySearch#0;class#Vector#0" />
-            <element signature="method#reverseVector#0;class#Vector#0" />
-            <element signature="method#bubbleSortOfVector#0;class#Vector#0" />
-            <element signature="method#mergeSortOfVector#0;class#Vector#0" />
-            <element signature="method#mergeSortOfVector#1;class#Vector#0" />
-            <element signature="method#merge#0;class#Vector#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/model/VectorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/tasks/maintask01/model/VectorCreatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/view/View.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
@@ -691,48 +737,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/controller/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/controller/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/model/VectorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/tasks/maintask01/model/VectorCreatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/view/View.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/model/Vector.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/VectorCreator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="method#initializeVector#0;class#Vector#0" />
-            <element signature="method#findMinValue#0;class#Vector#0" />
-            <element signature="method#findMaxValue#0;class#Vector#0" />
-            <element signature="method#countArithmeticalMean#0;class#Vector#0" />
-            <element signature="method#countGeometricalMean#0;class#Vector#0" />
-            <element signature="method#checkAscendingOrder#0;class#Vector#0" />
-            <element signature="method#checkDescendingOrder#0;class#Vector#0" />
-            <element signature="method#findTheFirstLocalMinimumPosition#0;class#Vector#0" />
-            <element signature="method#findTheFirstLocalMaximumPosition#0;class#Vector#0" />
-            <element signature="method#linearSearch#0;class#Vector#0" />
-            <element signature="method#binarySearch#0;class#Vector#0" />
-            <element signature="method#reverseVector#0;class#Vector#0" />
-            <element signature="method#bubbleSortOfVector#0;class#Vector#0" />
-            <element signature="method#mergeSortOfVector#0;class#Vector#0" />
-            <element signature="method#mergeSortOfVector#1;class#Vector#0" />
-            <element signature="method#merge#0;class#Vector#0" />
           </folding>
         </state>
       </provider>
@@ -744,46 +775,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/model/Vector.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/VectorCreator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
             <element signature="method#initializeVector#0;class#Vector#0" />
-            <element signature="method#findMinValue#0;class#Vector#0" />
-            <element signature="method#findMaxValue#0;class#Vector#0" />
-            <element signature="method#countArithmeticalMean#0;class#Vector#0" />
-            <element signature="method#countGeometricalMean#0;class#Vector#0" />
-            <element signature="method#checkAscendingOrder#0;class#Vector#0" />
-            <element signature="method#checkDescendingOrder#0;class#Vector#0" />
-            <element signature="method#findTheFirstLocalMinimumPosition#0;class#Vector#0" />
-            <element signature="method#findTheFirstLocalMaximumPosition#0;class#Vector#0" />
-            <element signature="method#linearSearch#0;class#Vector#0" />
-            <element signature="method#binarySearch#0;class#Vector#0" />
-            <element signature="method#reverseVector#0;class#Vector#0" />
-            <element signature="method#bubbleSortOfVector#0;class#Vector#0" />
-            <element signature="method#mergeSortOfVector#0;class#Vector#0" />
-            <element signature="method#mergeSortOfVector#1;class#Vector#0" />
-            <element signature="method#merge#0;class#Vector#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/model/VectorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/tasks/maintask01/model/VectorCreatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/view/View.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/controller/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/controller/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
@@ -795,16 +811,7 @@
     <entry file="file://$PROJECT_DIR$/MainTask01.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/model/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" />
-          <folding>
-            <element signature="e#0#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/model/Matrix.java" />
     <entry file="jar://$PROJECT_DIR$/../jdk-11.0.1/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -833,13 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
@@ -849,34 +849,134 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
+        <state relative-caret-position="264">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/view/View.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/a.java" />
+    <entry file="file://$USER_HOME$/Desktop/MainTask01-training/MainTask01-training/test/by/epam/java0training/platonovdzmitry/tasks/maintask01/model/logic/calculate/ArrayCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/MainTask01-testing(1)/MainTask01-testing/test/by/epam/javatraining/igoryasko/firstmaintask/model/logic/vectorlogic/VectorSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="-528" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/MainTask01-testing(1)/MainTask01-testing/test/by/epam/javatraining/igoryasko/firstmaintask/model/logic/vectorlogic/VectorLogicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="17" />
           <folding>
-            <element signature="method#printVector#0;class#View#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/controller/Main.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="242">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/model/Vector.java">
+    <entry file="file://$USER_HOME$/Desktop/MainTask01-testing(1)/MainTask01-testing/test/by/epam/javatraining/igoryasko/firstmaintask/model/logic/matrixlogic/MatrixLogicTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+        <state relative-caret-position="484">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/MainTask01-testing(1)/MainTask01-testing/src/by/epam/javatraining/igoryasko/firstmaintask/model/logic/matrixlogic/MatrixLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="70" column="17" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="70" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/MainTask01-testing(1)/MainTask01-testing/src/by/epam/javatraining/igoryasko/firstmaintask/model/logic/data/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/Vector.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/tasks/maintask01/model/VectorCreatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="9" column="11" lean-forward="true" selection-start-column="2" selection-end-line="107" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/VectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/MatrixCreatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/MatrixTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/MatrixCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Matrix#0;class#Matrix#0" />
+            <element signature="method#initializeMatrix#0;class#Matrix#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/VectorCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
           <folding>
             <element signature="method#initializeVector#0;class#Vector#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="method#findMinValue#0;class#Matrix#0" />
+            <element signature="method#findMaxValue#0;class#Matrix#0" />
+            <element signature="method#findTheFirstLocalMinimumPosition#0;class#Matrix#0" />
+            <element signature="method#findTheFirstLocalMaximumPosition#0;class#Matrix#0" />
+            <element signature="method#isSymmetrical#0;class#Matrix#0" />
+            <element signature="method#transposeMatrix#0;class#Matrix#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
             <element signature="method#findMinValue#0;class#Vector#0" />
             <element signature="method#findMaxValue#0;class#Vector#0" />
             <element signature="method#countArithmeticalMean#0;class#Vector#0" />
@@ -896,10 +996,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/model/VectorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/controller/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="135" selection-start-line="135" selection-end-line="142" selection-end-column="5" />
+          <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

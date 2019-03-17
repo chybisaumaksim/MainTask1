@@ -1,4 +1,5 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-MainTask1,by.epam.javatraining.chybisau.model,Vector,241,408,43,49,51,76,34,30,6,12
-MainTask1,by.epam.javatraining.chybisau.controller,Main,140,0,4,0,23,0,4,0,2,0
-MainTask1,by.epam.javatraining.chybisau.view,View,46,0,2,0,8,0,4,0,3,0
+MainTask1,by.epam.javatraining.chybisau.tasks.maintask01.view,View,18,0,0,0,5,0,3,0,3,0
+MainTask1,by.epam.javatraining.chybisau.tasks.maintask01.model.data,Vector,244,408,43,49,52,76,35,30,7,12
+MainTask1,by.epam.javatraining.chybisau.tasks.maintask01.model.data,Matrix,322,80,48,12,46,12,32,8,8,2
+MainTask1,by.epam.javatraining.chybisau.tasks.maintask01.controller,Main,78,0,0,0,15,0,2,0,2,0
