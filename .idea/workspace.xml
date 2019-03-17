@@ -1,31 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa421a17-262f-4946-be9f-772ce822b6c2" name="Default" comment="Second commit/ &#10;Changes:&#10;new class Matrix + matrix tests&#10;corrections of all tests&#10;toString() in all entities&#10;change of class View&#10;directories according to the tasks&#10;Block comments&#10;and a lot of minor fixes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/MatrixCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/VectorCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/MatrixTest.java" afterDir="false" />
+    <list default="true" id="aa421a17-262f-4946-be9f-772ce822b6c2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/controller/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/model/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/Vector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/view/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/model/VectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/VectorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MainTask1-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MainTask1-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/javatraining/chybisau/controller/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/javatraining/chybisau/model/Vector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/javatraining/chybisau/view/View.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/by/epam/javatraining/chybisau/model/VectorTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,8 +30,8 @@
       <file leaf-file-name="MatrixCreator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/MatrixCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="123">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Matrix#0;class#Matrix#0" />
@@ -73,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/controller/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
+            <state relative-caret-position="242">
+              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,13 +62,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="View.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/view/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+            <state relative-caret-position="439">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#print#2;class#View#0" />
+                <element signature="method#print#3;class#View#0" />
               </folding>
             </state>
           </provider>
@@ -100,7 +79,7 @@
       <file leaf-file-name="VectorCreator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/VectorCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
+            <state relative-caret-position="172">
               <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
               <folding>
                 <element signature="method#initializeVector#0;class#Vector#0" />
@@ -209,8 +188,8 @@
         <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/Vector.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/MatrixCreator.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/VectorCreator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/controller/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/view/View.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/controller/Main.java" />
       </list>
     </option>
   </component>
@@ -604,6 +583,14 @@
       <option name="presentableId" value="Default" />
       <updated>1552044974904</updated>
     </task>
+    <task id="LOCAL-00001" summary="Second commit/ &#10;Changes:&#10;new class Matrix + matrix tests&#10;corrections of all tests&#10;toString() in all entities&#10;change of class View&#10;directories according to the tasks&#10;Block comments&#10;and a lot of minor fixes">
+      <created>1552847008308</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552847008308</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -639,7 +626,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -650,11 +638,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.15167095" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4343708" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4343708" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49908257" visible="true" weight="0.2840617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49908257" visible="true" weight="0.2840617" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882273" />
       <window_info id="Structure" order="1" sideWeight="0.50091743" side_tool="true" weight="0.2718509" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -675,7 +663,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Secon commit/ &#10;Changes&#10;new Matrix + matrix tests&#10;corrections of all tests&#10;toString() in all entities&#10;change of Viev&#10;directories according to the tasks&#10;Block comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Secon commit/ &#10;Changes&#10;new Matrix + matrix tests&#10;corrections of all tests&#10;toString() in all entities&#10;change of Viev&#10;directories according to the tasks&#10;Block comments" />
+    <MESSAGE value="Second commit/ &#10;Changes:&#10;new class Matrix + matrix tests&#10;corrections of all tests&#10;toString() in all entities&#10;change of class View&#10;directories according to the tasks&#10;Block comments&#10;and a lot of minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit/ &#10;Changes:&#10;new class Matrix + matrix tests&#10;corrections of all tests&#10;toString() in all entities&#10;change of class View&#10;directories according to the tasks&#10;Block comments&#10;and a lot of minor fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -937,8 +926,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/MatrixCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="123">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Matrix#0;class#Matrix#0" />
@@ -949,25 +938,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/data/VectorCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+        <state relative-caret-position="172">
           <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
           <folding>
             <element signature="method#initializeVector#0;class#Vector#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <element signature="method#findMinValue#0;class#Matrix#0" />
-            <element signature="method#findMaxValue#0;class#Matrix#0" />
-            <element signature="method#findTheFirstLocalMinimumPosition#0;class#Matrix#0" />
-            <element signature="method#findTheFirstLocalMaximumPosition#0;class#Matrix#0" />
-            <element signature="method#isSymmetrical#0;class#Matrix#0" />
-            <element signature="method#transposeMatrix#0;class#Matrix#0" />
           </folding>
         </state>
       </provider>
@@ -996,20 +970,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/controller/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/model/logic/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
+        <state relative-caret-position="216">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#findMinValue#0;class#Matrix#0" />
+            <element signature="method#findMaxValue#0;class#Matrix#0" />
+            <element signature="method#findTheFirstLocalMinimumPosition#0;class#Matrix#0" />
+            <element signature="method#findTheFirstLocalMaximumPosition#0;class#Matrix#0" />
+            <element signature="method#isSymmetrical#0;class#Matrix#0" />
+            <element signature="method#transposeMatrix#0;class#Matrix#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#print#2;class#View#0" />
+            <element signature="method#print#3;class#View#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/javatraining/chybisau/tasks/maintask01/controller/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

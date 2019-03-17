@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: by.epam.javatraining.chybisau.tasks.maintask01.model.logic.VectorTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
