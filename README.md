@@ -1,4 +1,4 @@
 # MainTask1
 
-Pre-trening Epam
+Pre-trening Epam.
 Using Java Arrays. Sorting and Searching Algorithms.
